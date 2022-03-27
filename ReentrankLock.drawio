@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T05:09:42.660Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="wwyBNMsoJelKELaWSx7E" version="17.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T11:30:04.099Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="GJy7a0DbvU4wVgoe2vOU" version="17.2.4" type="github">
   <diagram id="RERYdWSrydjM7Xz_bRy-" name="Page-1">
-    <mxGraphModel dx="2057" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="690" pageHeight="980" background="#F1F4E8" math="0" shadow="1">
+    <mxGraphModel dx="1346" dy="918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="690" pageHeight="980" background="#F1F4E8" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,11 @@
             <mxPoint x="680" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-7" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mI43JhcppY5amAcJXCWa-94">
+          <mxGeometry x="0.0435" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mI43JhcppY5amAcJXCWa-87" value="前置节点状态&amp;lt;0" style="rhombus;whiteSpace=wrap;html=1;fontSize=2;sketch=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="365" y="800" width="200" height="60" as="geometry" />
         </mxCell>
@@ -268,6 +273,21 @@
           <mxGeometry x="190.38541666666674" y="134" as="geometry">
             <mxPoint x="185" y="-6" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-130" y="-209" width="194" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-2" value="AQS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hnK5YF6kFXl_A8NtAf-s-6">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-3" value="&lt;br&gt;Node head&lt;br&gt;Node tail&lt;br&gt;int status" style="whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=top;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=#ffffff;glass=0;shadow=1;sketch=1;" vertex="1" parent="hnK5YF6kFXl_A8NtAf-s-6">
+          <mxGeometry x="5" y="29" width="189" height="291" as="geometry" />
+        </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-4" value="&lt;br&gt;Node SHARED = new Node();&lt;br&gt;Node&amp;nbsp;EXCLUSIVE = null;&lt;br&gt;int CANCELLED =&amp;nbsp; 1;&lt;br&gt;int SIGNAL&amp;nbsp; &amp;nbsp; = -1;&lt;br&gt;int&lt;span&gt;&amp;nbsp;CONDITION = -2;&lt;br&gt;int PROPAGATE = -3;&lt;br&gt;int waitStatus;&lt;br&gt;Node prev;&lt;br&gt;Node next;&lt;br&gt;Thread thread;&lt;br&gt;Node nextWaiter&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;shadow=0;sketch=1;fillColor=#f5f5f5;strokeColor=default;fontColor=#333333;" vertex="1" parent="hnK5YF6kFXl_A8NtAf-s-6">
+          <mxGeometry x="11" y="120" width="175" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="hnK5YF6kFXl_A8NtAf-s-5" value="Node" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hnK5YF6kFXl_A8NtAf-s-6">
+          <mxGeometry x="11" y="93" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
